@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fesaone/FESA-Simulasi-Kredit@main/fesastyle.css">
+  </head>
+  <body>
+    <h1 id="header"></h1>
+    <form id="simulasiForm" class="fesaform">
+      <h1 class="fesatitle">Credit Calculate</h1>
+      <label for="jenisKendaraan" class="fesalabel">Pilih Jenis Kendaraan:</label>
+      <select id="jenisKendaraan" required class="fesaselect">
+        <option value="" disabled selected>Pilih Kendaraan</option>
+      </select><br>
+      <label for="warna" class="fesalabel">Warna:</label>
+      <select id="warna" required class="fesaselect">
+        <option value="" disabled selected>Pilih Warna</option>
+      </select><br>
+
+      <label for="uangMuka" class="fesalabel">Uang Muka (DP): <span id="uangMukaValue" class="fesarangevalue">10%</span></label>
+      <input type="range" id="uangMuka" name="uangMuka" min="10" max="100" value="10" required class="fesarange"><br>
+      <label for="periodeAngsuran" class="fesalabel">Periode Angsuran:</label>
+      <select id="periodeAngsuran" required class="fesaselect">
+        <option value="12">12 Bulan</option>
+        <option value="24">24 Bulan</option>
+        <option value="36">36 Bulan</option>
+      </select><br>
+      <button type="submit" class="fesabuttom">Hitung Simulasi</button>
+    </form>
+
+    <div id="hasilSimulasi" class="hidden">
+      <img id="gambarKendaraan" width="200"><br><br>
+      Nama Kendaraan: <span id="namaKendaraan"></span><br>
+      Warna: <span id="warnaKendaraan"></span><br><br>
+
+      Harga Asli: <span id="hargaAsli"></span><br>
+      Uang Muka (DP <span id="dpPersentase"></span>): <span id="TotalUangMUKA"></span>,-<br>
+      Tenor Periode Cicilan: <span id="tenorCicilan"></span><br><br>
+
+      Angsuran Pokok per BULAN: <span id="AngsuranPokokperBULAN"></span><br>
+      Angsuran Bunga per BULAN: <span id="AngsuranBungaperBULAN"></span><br>
+      Biaya Cicilan: <span id="cicilanPerBulan"></span> / Perbulan<br><br>
+      Tahun: <span id="tahunTOTAL"></span> / Tahun<br>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/gh/fesaone/FESA-Simulasi-Kredit@main/fesascript.js"></script>
+  </body>
+</html>

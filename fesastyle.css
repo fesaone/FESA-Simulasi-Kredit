@@ -1,0 +1,117 @@
+.fesaform {
+  background: rgb(255, 217, 0);
+  border: 0px solid #0000000d;
+  border-bottom: 0px;
+  border-radius: 0px;
+  padding: 30px;
+  width: 500px;
+}
+
+.fesatitle {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.fesalabel {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.fesaselect,
+.fesaselect:focus {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #0000000d;
+  border-radius: 0px;
+  padding: 12px;
+  width: 100%;
+}
+
+.fesarange {
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.fesarangevalue {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.fesabuttom {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  background: red;
+  border-radius: 0px;
+  border: 0px;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.fesabuttom:hover,
+.fesabuttom:focus {
+  background: red;
+}
+
+/* Hasil Simulasi */
+
+.hidden {
+  display: none;
+}
+
+img#gambarKendaraan {
+  width: 100%;
+}
+
+#hasilSimulasi {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background: white;
+  border: 1px solid #0000000d;
+  border-top: 0px;
+  border-radius: 0px;
+  padding: 30px;
+  width: 500px;
+}
+
+#hasilSimulasi span {
+  font-family: 'Rajdhani', Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background-color: #f2f2f2;
+  outline: none;
+  border-radius: 5px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 50%;
+}

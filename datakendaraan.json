@@ -1,0 +1,44 @@
+{
+  "kendaraan": [
+    {
+      "nama": "GESITS G1",
+      "warna": [
+        {
+          "warna": "Biru",
+          "harga": 28970000,
+          "gambar": "https://gesitsmotors.com/wp-content/uploads/2023/02/g1-1-800x600.png"
+        },
+        {
+          "warna": "Orange",
+          "harga": 29970000,
+          "gambar": "https://gesitsmotors.com/wp-content/uploads/2023/02/g1-1-800x600.png"
+        },
+        {
+          "warna": "Hijau",
+          "harga": 30970000,
+          "gambar": "https://gesitsmotors.com/wp-content/uploads/2023/02/g1-1-800x600.png"
+        }
+      ]
+    },
+    {
+      "nama": "GESITS RAYA",
+      "warna": [
+        {
+          "warna": "Merah",
+          "harga": 27990000,
+          "gambar": "https://gesitsmotors.com/wp-content/uploads/2023/02/Gesits-Raya-G-800x600.png"
+        },
+        {
+          "warna": "Putih",
+          "harga": 28990000,
+          "gambar": "https://gesitsmotors.com/wp-content/uploads/2023/02/Gesits-Raya-G-800x600.png"
+        },
+        {
+          "warna": "Hitam",
+          "harga": 29990000,
+          "gambar": "https://gesitsmotors.com/wp-content/uploads/2023/02/Gesits-Raya-G-800x600.png"
+        }
+      ]
+    }
+  ]
+}

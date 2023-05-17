@@ -11,7 +11,7 @@ range.addEventListener('input', function () {
 
 let kendaraan = [];
 
-fetch('#')
+fetch('https://raw.githubusercontent.com/fesaone/FESA-Simulasi-Kredit/main/datakendaraan.json')
   .then(response => response.json())
   .then(data => {
     kendaraan = data.kendaraan;
